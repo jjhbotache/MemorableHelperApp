@@ -7,4 +7,11 @@
   body {
     @apply bg-gray-900 text-white;
   }
+  svg:hover {
+    @apply text-blue-100 scale-90;
+  }
+  button:hover {
+    @apply scale-95;
+    overflow: hidden;
+  }
 }
